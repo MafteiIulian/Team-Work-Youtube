@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+  background-color: rgb(92, 91, 91);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoside {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.btnLeft span {
+  font-size: 20px;
+}
+.btnLeft button {
+  border-radius: 10px;
+}
+.btn {
+  margin: 1px;
+}
+.search {
+  width: 500px;
+  border-radius: 10px;
+  height: 35px;
+}
+.btnright {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: rgb(51, 51, 51);
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.btnright:hover {
+  transition: ease-in-out 0.5s;
+  background-color: rgb(170, 44, 44);
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+}
